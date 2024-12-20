@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-ecoretools') {
+orgs.newOrg('modeling.ecoretools', 'eclipse-ecoretools') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
