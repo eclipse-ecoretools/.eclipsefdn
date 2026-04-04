@@ -16,7 +16,7 @@ orgs.newOrg('modeling.ecoretools', 'eclipse-ecoretools') {
       delete_branch_on_merge: false,
       web_commit_signoff_required: false,
       workflows+: {
-        enabled: false,
+        enabled: true,
       },
     },
     orgs.newRepo('ecoretools-website') {
